@@ -36,10 +36,7 @@ Durante o desenvolvimento, foram aplicadas e reforçadas várias boas práticas 
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Java 17** (ou versão equivalente)
-- **IDE de sua preferência** (IntelliJ, Eclipse, VS Code etc.)
+- **Java 24**
+- **IDE IntelliJ eVS Code 
 
----
-
-## 📂 Estrutura do Projeto
 
