@@ -1,18 +1,11 @@
-## Getting Started
+# Projeto Cadastro de Produtos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+---
 
-## Folder Structure
+Crie um sistema basico de cadastro de produto com 4 metodos, cadastrar produto, buscar por id, exluir produto e exibir produtos da lista.
 
-The workspace contains two folders by default, where:
+Na criacao do metodo aprendi boas praticas ao declarar a exception antes de retornar o metodo.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+No metodo excluir produto entendi melhor como usar o boolean para tratar excecao da condicional, como filtrar com o get(Int) para retornar um inteiro, e tambem com o equals(String) para retornar uma string, usei o remover(Object) para retirar da lista.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+No metodo buscarPorId ao inves de retornar o Id no print eu retornei a variavel (p) que foi interada da lista no foreach.
